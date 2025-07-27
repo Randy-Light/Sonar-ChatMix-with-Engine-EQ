@@ -48,7 +48,6 @@ The easiest way to run the script is directly from the folder where it is saved.
 
 1.  Open the folder where you saved `Nova_Engine_EQ.py`.
 2.  In the address bar of File Explorer (where the folder path is shown), type `cmd` and press Enter.
-    !(https://i.imgur.com/gG46w5h.png)
 3.  In the black window that appears, type the following command and press Enter:
     ```sh
     python Nova_Engine_EQ.py
