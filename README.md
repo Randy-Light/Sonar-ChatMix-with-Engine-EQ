@@ -1,6 +1,6 @@
 # Arctis Nova Pro GameDAC - EQ Enabler
 
-This script solves a common issue for SteelSeries headset owners, allowing you to use the **Engine's Equalizer (EQ)** presets and the hardware **ChatMix** dial simultaneously.
+This script solves a common issue for SteelSeries headset owners, allowing you to use the **Engine's Equalizer (EQ)** presets and the software **ChatMix** dial simultaneously.
 
 The SteelSeries GG software creates a conflict: when the **Sonar** suite is enabled for the headset, it takes over all audio processing and disables the standard **Engine EQ**. This script sends a direct command to the GameDAC to reactivate your saved Engine EQ profile, allowing you to use it together with the hardware ChatMix, without the Sonar software interfering.
 
