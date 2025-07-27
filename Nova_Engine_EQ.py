@@ -4,7 +4,7 @@ import sys
 # --- Device Identifiers ---
 VENDOR_ID = 0x1038
 PRODUCT_ID = 0x12CB
-INTERFACE_NUMBER = 4  # The control interface we discovered
+INTERFACE_NUMBER = 4  # The control interface
 
 def find_device_path(vid, pid, interface_num):
     """Finds the path to the device's HID control interface."""
