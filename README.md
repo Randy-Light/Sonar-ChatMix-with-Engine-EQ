@@ -34,7 +34,7 @@ This script uses `VENDOR_ID = 0x1038` and `PRODUCT_ID = 0x12CB`, which are corre
 ## Installation and Setup
 
 1.  **Install Python**. If you don't already have it, download and install it from the official website. **Important:** during installation, check the box that says **"Add Python to PATH"**.
-2.  **Download the Script**. Download the `enable_eq.py` file from this repository and save it to a convenient location (e.g., your Desktop).
+2.  **Download the Script**. Download the `Nova_Engine_EQ.py` file from this repository and save it to a convenient location (e.g., your Desktop).
 3.  **Install Dependencies**.
     * Open Command Prompt (`cmd`) or PowerShell.
     * Install the required library by running the following command:
@@ -46,11 +46,12 @@ This script uses `VENDOR_ID = 0x1038` and `PRODUCT_ID = 0x12CB`, which are corre
 
 The easiest way to run the script is directly from the folder where it is saved.
 
-1.  Open the folder where you saved `enable_eq.py`.
+1.  Open the folder where you saved `Nova_Engine_EQ.py`.
 2.  In the address bar of File Explorer (where the folder path is shown), type `cmd` and press Enter.
+    !(https://i.imgur.com/gG46w5h.png)
 3.  In the black window that appears, type the following command and press Enter:
     ```sh
-    python enable_eq.py
+    python Nova_Engine_EQ.py
     ```
 4.  If successful, you will see a confirmation message, and your equalizer profile will be activated.
 
@@ -64,9 +65,9 @@ You can create an `.exe` file for one-click execution, so you don't have to open
     ```
 2.  **Create the `.exe`**. Open a command prompt in the script's folder (as described above) and run the command:
     ```sh
-    pyinstaller --onefile --noconsole enable_eq.py
+    pyinstaller --onefile --noconsole Nova_Engine_EQ.py
     ```
-3.  **Find Your File**. The finished `enable_eq.exe` will be located in a new folder named **`dist`**.
+3.  **Find Your File**. The finished `Nova_Engine_EQ.exe` will be located in a new folder named **`dist`**.
 
 ## Disclaimer
 
